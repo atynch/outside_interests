@@ -8,25 +8,29 @@ layout: default
 To start our analysis, we seperated columns that were relevant to my idea using select(). We also used functions such as head(), convert_columns_to_int(), and major_group() to further organize the data and get a general idea of what we would be analyzing. 
 
 Next we used count() to see how many students selected each response (scale from 1-7) for the interested_connections question. We noticed that there were more responses ranging from 5-7 than 1-3, demonstrating some interest in the idea of outside connections to the class.
-<img src="./static/imgs/ss/counts.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+
+<img src="./static/imgs/ss/counts.png" alt="Image of Comp110 rainbow logo." width="500"/>
 
 *Figure 1: Screenshot of counts from the notebook*
 
 
 We then visualized these counts using a histogram to better see the connection.
-<img src="./static/imgs/ss/histogram.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+
+<img src="./static/imgs/ss/histogram.png" alt="Image of Comp110 rainbow logo." width="500"/>
 
 *Figure 2: Visualization of the counts in a histogram*
 
 
 We also visualized the relationship between interested_connection answers and major groups using box and whisker plots, to see if only CS majors would be interested in the optional exercises, or if other majors would also be interested.
-<img src="./static/imgs/ss/boxplot.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+
+<img src="./static/imgs/ss/boxplot.png" alt="Image of Comp110 rainbow logo." width="500"/>
 
 *Figure 3: Visualization of relationship between major groups and interested_connection answers using box & whisker plots*
 
 
 Finally, we visualized the relationship between interest in the class and interest in outside connections, by creating a line plot comparing interested_connections answers to average interesting answers. 
-<img src="./static/imgs/ss/lineplot.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+
+<img src="./static/imgs/ss/lineplot.png" alt="Image of Comp110 rainbow logo." width="500"/>
 
 *Figure 4: Visualization of relationship between ratings of interest in class and outside connections*
 
